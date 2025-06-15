@@ -1,35 +1,36 @@
 🏟️ PlayArena: Turf Booking Website
-PlayArena is a full-featured turf booking web application that enables users to discover sports venues, book turfs online, and make secure payments using Razorpay. It also provides an admin panel for managing bookings, payments, turf listings, and user feedback.
+PlayArena is a dynamic turf booking platform that allows users to discover and book sports venues online with ease. Integrated with Razorpay for secure transactions, the site offers seamless experiences for both users and administrators.
 
 🧰 Tech Stack
-Frontend: HTML, CSS
-Backend: PHP
-Payment Gateway: Razorpay
+* Frontend: HTML, CSS
+* Backend: PHP
+* Payment Gateway: Razorpay
 
 👤 User Features
-🔐 Login / Signup: Secure user authentication.
-🏠 Home Page: Explore listed turfs with descriptions and details.
-📅 Turf Booking: Select preferred turf, date, and time for booking.
-💳 Payment Integration: Razorpay used for seamless and secure online payments.
-🧾 Booking Invoice: Confirmed bookings available in My Bookings section.
-✍️ Feedback & Review: Users can share reviews for booked venues.
-🖥️ User Dashboard:
-Home
-My Bookings
-Contact
-About
-Feedback & Reviews
-Logout
+* 🔐 Login / Signup: Secure user authentication.
+* 🏠 Home Page: Browse available turfs with details.
+* 📅 Turf Booking: Book a turf by choosing date & time.
+* 💳 Payment: Integrated Razorpay checkout for smooth payments.
+* 🧾 Booking Invoice: View booking history in "My Bookings".
+* ✍️ Feedback & Review: Leave reviews for played venues.
+* 🖥️ User Dashboard:
+  * Home
+  * My Bookings
+  * Contact
+  * About
+  * Feedback & Reviews
+  * Logout
 
 🛠️ Admin Features
-🔐 Admin Login: Access admin panel using credentials.
-📋 Manage Bookings: View and monitor all user bookings.
-💰 Payment Overview: Track and manage Razorpay transactions.
-🏟️ Turf Management: View existing turfs and add new venues.
-🗑️ Feedback Moderation: Review and remove inappropriate or spam feedback.
-🔓 Logout
+* 🔐 Admin Login: Secure access to the admin panel.
+* 📋 Manage Bookings: View and manage all bookings.
+* 💰 Payment Overview: Monitor Razorpay transactions.
+* 🏟️ Turf Management: Add or view turf listings.
+* 🗑️ Feedback Moderation: Remove inappropriate reviews.
+* 🔓 Logout
 
 📁 Project Structure
+
 PlayArena/
 ├── index.html
 ├── login.php
