@@ -30,30 +30,4 @@ PlayArena is a dynamic turf booking platform that allows users to discover and b
 * 🗑️ Feedback Moderation: Remove inappropriate reviews.
 * 🔓 Logout
 
-📁 Project Structure
-
-PlayArena/
-├── index.html
-├── login.php
-├── signup.php
-├── dashboard/
-│   ├── user/
-│   │   ├── home.php
-│   │   ├── mybookings.php
-│   │   ├── contact.php
-│   │   ├── about.php
-│   │   ├── feedback.php
-│   │   └── logout.php
-│   └── admin/
-│       ├── bookings.php
-│       ├── payments.php
-│       ├── view_turfs.php
-│       ├── add_turf.php
-│       ├── feedbacks.php
-│       └── logout.php
-├── razorpay/
-│   └── payment_integration.php
-└── assets/
-    ├── css/
-    └── images/
 
