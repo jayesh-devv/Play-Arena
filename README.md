@@ -1,33 +1,70 @@
-🏟️ PlayArena: Turf Booking Website
+# 🏟️ PlayArena: Turf Booking Website
 
-PlayArena is a dynamic turf booking platform that allows users to discover and book sports venues online with ease. Integrated with Razorpay for secure transactions, the site offers seamless experiences for both users and administrators.
+**PlayArena** is a full-featured turf booking web application that enables users to discover sports venues, book turfs online, and make secure payments using Razorpay. It also provides an admin panel for managing bookings, payments, turf listings, and user feedback.
 
-🧰 Tech Stack
-* Frontend: HTML, CSS
-* Backend: PHP
-* Payment Gateway: Razorpay
+---
 
-👤 User Features
-* 🔐 Login / Signup: Secure user authentication.
-* 🏠 Home Page: Browse available turfs with details.
-* 📅 Turf Booking: Book a turf by choosing date & time.
-* 💳 Payment: Integrated Razorpay checkout for smooth payments.
-* 🧾 Booking Invoice: View booking history in "My Bookings".
-* ✍️ Feedback & Review: Leave reviews for played venues.
-* 🖥️ User Dashboard:
-  * Home
-  * My Bookings
-  * Contact
-  * About
-  * Feedback & Reviews
-  * Logout
+## 🧰 Tech Stack
 
-🛠️ Admin Features
-* 🔐 Admin Login: Secure access to the admin panel.
-* 📋 Manage Bookings: View and manage all bookings.
-* 💰 Payment Overview: Monitor Razorpay transactions.
-* 🏟️ Turf Management: Add or view turf listings.
-* 🗑️ Feedback Moderation: Remove inappropriate reviews.
-* 🔓 Logout
+- **Frontend**: HTML, CSS  
+- **Backend**: PHP  
+- **Payment Gateway**: Razorpay
 
+---
 
+## 👤 User Features
+
+- 🔐 **Login / Signup**: Secure user authentication.
+- 🏠 **Home Page**: Explore listed turfs with descriptions and details.
+- 📅 **Turf Booking**: Select preferred turf, date, and time for booking.
+- 💳 **Payment Integration**: Razorpay used for seamless and secure online payments.
+- 🧾 **Booking Invoice**: Confirmed bookings available in *My Bookings* section.
+- ✍️ **Feedback & Review**: Users can share reviews for booked venues.
+- 🖥️ **User Dashboard**:
+  - Home  
+  - My Bookings  
+  - Contact  
+  - About  
+  - Feedback & Reviews  
+  - Logout
+
+---
+
+## 🛠️ Admin Features
+
+- 🔐 **Admin Login**: Access admin panel using credentials.
+- 📋 **Manage Bookings**: View and monitor all user bookings.
+- 💰 **Payment Overview**: Track and manage Razorpay transactions.
+- 🏟️ **Turf Management**: View existing turfs and add new venues.
+- 🗑️ **Feedback Moderation**: Review and remove inappropriate or spam feedback.
+- 🔓 **Logout**
+
+---
+
+## 📁 Project Structure
+
+```bash
+PlayArena/
+├── index.html
+├── login.php
+├── signup.php
+├── dashboard/
+│   ├── user/
+│   │   ├── home.php
+│   │   ├── mybookings.php
+│   │   ├── contact.php
+│   │   ├── about.php
+│   │   ├── feedback.php
+│   │   └── logout.php
+│   └── admin/
+│       ├── bookings.php
+│       ├── payments.php
+│       ├── view_turfs.php
+│       ├── add_turf.php
+│       ├── feedbacks.php
+│       └── logout.php
+├── razorpay/
+│   └── payment_integration.php
+└── assets/
+    ├── css/
+    └── images/
