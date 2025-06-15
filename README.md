@@ -5,6 +5,7 @@ PlayArena is a full-featured turf booking web application that enables users to 
 Frontend: HTML, CSS
 Backend: PHP
 Payment Gateway: Razorpay
+
 👤 User Features
 🔐 Login / Signup: Secure user authentication.
 🏠 Home Page: Explore listed turfs with descriptions and details.
@@ -19,6 +20,7 @@ Contact
 About
 Feedback & Reviews
 Logout
+
 🛠️ Admin Features
 🔐 Admin Login: Access admin panel using credentials.
 📋 Manage Bookings: View and monitor all user bookings.
@@ -26,6 +28,7 @@ Logout
 🏟️ Turf Management: View existing turfs and add new venues.
 🗑️ Feedback Moderation: Review and remove inappropriate or spam feedback.
 🔓 Logout
+
 📁 Project Structure
 PlayArena/
 ├── index.html
