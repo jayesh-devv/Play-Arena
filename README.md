@@ -30,6 +30,7 @@ PlayArena is a dynamic turf booking platform that allows users to discover and b
 * 🔓 Logout
 
 📁 Project Structure
+
 PlayArena/
 ├── index.html
 ├── login.php
@@ -54,5 +55,4 @@ PlayArena/
 └── assets/
     ├── css/
     └── images/
-
 
